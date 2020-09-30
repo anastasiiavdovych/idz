@@ -1,0 +1,273 @@
+html, body {
+
+	background-attachment: scroll;
+	width: 100%;
+}
+* {box-sizing: border-box;}
+}
+
+.polnometrag {
+  background: none;
+  width: 80%;
+}
+h4{
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+}
+#btn{
+  height: 50px;
+  width: 150px;
+  font-size: 17px;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  position: absolute;
+}
+.images{
+  background: none;
+   width: 80%;
+}
+.texty{
+  background: none;
+}
+.img-item {
+  margin-bottom: 3px;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.puk{
+	width: 640px;
+	height: 480px;
+}
+.kak{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5px;
+}
+.header{
+	position: fixed;
+	width: 335px;
+	top: 55px;
+  left: -32px;
+}
+.header h1{
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px;
+	background: white;
+}
+.navigation {
+	margin-top: 200px;
+	width: 200px;
+	display:block;
+	list-style:none;
+	position: fixed;
+}
+.navigation a{
+	color: black;
+	display: block;
+	background: white;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 6px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+.navigation a:hover {
+	background: #d8fffb;
+}
+.content{
+	right: 50px;
+	left: 200px;
+	top: 0px;
+	position: absolute;
+	padding-bottom: 10px;
+}
+.content1{
+	right: 50px;
+	left: 300px;
+	top: 10px;
+	position: absolute;
+	padding-bottom: 10px;
+	font-size: 30px;
+	margin-right: 80px;
+}
+.content h2{
+	font-size: 50px;
+	padding: 10px 0px 20px 0px;
+	margin-top: 52px;
+	color: black;
+}
+.content p{
+	font-size: 18px;
+	padding: 10px;
+	line-height: 24px;
+	color: black;
+	display: inline-block;
+	background: white;
+	padding: 10px;
+	margin: 3px 0px;
+}
+.panel{
+}
+.panel:target{
+}
+
+.footnote a{
+	color: #ddd;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}
+.prev{
+  left: 0;
+}
+
+.next {
+  right: 0;
+
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*боковая таблица-----------------------------*/
+.mySidenav a {
+    position: absolute; 
+    right: -200px;
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 0px;
+    text-decoration: none; 
+    font-size: 13px; 
+    color: black; 
+    border-radius: 0 5px 5px 0;
+    position: fixed;
+
+}
+
+.mySidenav a:hover {
+    right: 0; 
+
+}
+
+#about {
+    top: 1px;
+    background-color: white;
+}
+table {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+background: white;
+border: 10px solid #ECE9E0;
+border-radius: 20px;
+}
+th {
+font-size: 13px;
+padding: 1px;
+}
+td {
+background: white;
+padding: 15px;
+}
+@media only screen and (max-width:768px){
+}
+@media only screen and (max-width:480px){
+}
